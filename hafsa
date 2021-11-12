@@ -1,0 +1,40 @@
+#include<stdio.h>
+ 
+  int main(){
+
+ int x,y,cont;
+ 
+  char op;
+  while (cont !=0)
+  {
+  
+  printf("donnez le premier nombre: ");
+  scanf("%d, &x");
+  printf("donnez le dexieme nombre: ");
+  scanf("%d, &y");
+  printf("donnez un operateur: ");
+  scanf("%c, &op");
+}
+  switch (op) 
+  { 
+   case 1: 
+   '+' : printf(" x + y = %d", x+y);
+   break ;
+   case 2: 
+   '-' : printf(" x - y = %d", x-y);
+   break;
+   case 3:
+   '*' : printf(" x * y = %d", x*y);
+   break;   
+   case 4:
+   '/' : printf(" x / y = %d", x/y);
+   break;
+   
+ default : printf(" vous voulez continuer? si oui tapez un nombre differents que 0 ");
+  
+  }
+  
+ printf("vous pouvez utilisez seulement + , - , * : ");
+ scanf( "d%", &cont);
+}
+  

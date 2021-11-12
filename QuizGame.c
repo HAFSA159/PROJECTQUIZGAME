@@ -4,7 +4,7 @@
   int main()
   
 {
-	int score = 0;
+  int score = 0;
   printf("Lets started! Good luck.\n");
   printf("What is actually electricity?. \n");
   printf("A. A flow of water. \n");
